@@ -1,0 +1,20 @@
+version: "3.4"
+
+services:
+    # mountebank:
+    #     build:
+    #         context: .
+    #         target: mountebank
+    #     container_name: mountebank
+    #     ports:
+    #         - "2525:2525"
+    #         - "4540:4540"
+    #         - "4541:4541"
+    mountebank-test:
+        build:
+            context: .
+            target: mountebank-test
+        container_name: mountebank-test
+        environment: 
+            - DOCKER_EXEC=true
+        command: npm run test
