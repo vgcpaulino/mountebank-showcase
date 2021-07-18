@@ -2,9 +2,8 @@
 
 ## About:
 This repository contains a showcase of the [Mountebank](http://www.mbtest.org/).
-```
-Mountebank is the first open source tool to provide cross-platform, multi-protocol test doubles over the wire. Simply point your application under test to mountebank instead of the real dependency, and test like you would with traditional stubs and mocks.
-```
+
+>>> Mountebank is the first open source tool to provide cross-platform, multi-protocol test doubles over the wire. Simply point your application under test to mountebank instead of the real dependency, and test like you would with traditional stubs and mocks.
 
 ## Examples:
 - Create a Impostor.
